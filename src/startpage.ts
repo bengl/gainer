@@ -24,7 +24,7 @@ function route(query: string, socket: Socket): void {
 function homepage(socket: Socket): void {
   const data = [
     '',
-    `Welcome to Geomys Gopher Client!`, // TODO get name and version from package.json
+    `Welcome to Gainer Gopher Client!`, // TODO get name and version from package.json
     '',
     'Key commands:',
     'b     : back',
