@@ -7,7 +7,7 @@
     "build": "tsc",
     "prepublish": "npm run build"
   },
-  "bin": "gainer",
+  "bin": "./gainer",
   "files": [
     "lib",
     "ui.js",
