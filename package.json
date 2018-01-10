@@ -1,0 +1,26 @@
+{
+  "name": "gainer",
+  "version": "1.0.0",
+  "description": "A gopher browser",
+  "main": "ui.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "lib",
+    "ui.js",
+    "gainer"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/blessed": "^0.1.8",
+    "@types/node": "^8.5.1",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "opener": "^1.4.3"
+  }
+}
